@@ -12,7 +12,6 @@ function Footer() {
     <div className="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
-  
     <div>
       <a href="/" className="me-4 text-reset mx-3">
         <i className="fab fa-facebook-f"></i>
