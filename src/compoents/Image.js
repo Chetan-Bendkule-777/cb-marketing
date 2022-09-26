@@ -2,13 +2,13 @@ import React from 'react'
 import img1 from '../Img/a.jpg';
 import img2 from '../Img/b.jpg';
 import img3 from '../Img/c.jpg';
-
+import './image.css'
 
 function Image() {
   return (
     <>
     <hr></hr>
-    <div className="container pt-10" >
+    <div className="container pt-10 style={{max-width:100% height:auto }}" >
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
